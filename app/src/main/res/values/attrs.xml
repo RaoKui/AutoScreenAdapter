@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="layout_adapterWidth" format="float" />
+    <attr name="layout_adapterHeight" format="float" />
+    <attr name="layout_adapterMarginTop" format="float" />
+    <attr name="layout_adapterMarginBottom" format="float" />
+    <attr name="layout_adapterMarginLeft" format="float" />
+    <attr name="layout_adapterMarginRight" format="float" />
+    <declare-styleable name="AutoAdapterRelativeLayout">
+        <attr name="layout_adapterWidth" />
+        <attr name="layout_adapterHeight" />
+        <attr name="layout_adapterMarginTop" />
+        <attr name="layout_adapterMarginBottom" />
+        <attr name="layout_adapterMarginLeft" />
+        <attr name="layout_adapterMarginRight" />
+    </declare-styleable>
+    <declare-styleable name="AutoAdapterLinearLayout">
+        <attr name="layout_adapterWidth" />
+        <attr name="layout_adapterHeight" />
+        <attr name="layout_adapterMarginTop" />
+        <attr name="layout_adapterMarginBottom" />
+        <attr name="layout_adapterMarginLeft" />
+        <attr name="layout_adapterMarginRight" />
+    </declare-styleable>
+
+</resources>

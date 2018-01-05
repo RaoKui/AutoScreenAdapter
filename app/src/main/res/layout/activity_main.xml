@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.raokui.autoscreenadapter.AutoAdapterRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raokui.autoscreenadapter.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        app:layout_adapterHeight="100"
+        app:layout_adapterMarginLeft="100"
+        app:layout_adapterMarginTop="100"
+        app:layout_adapterWidth="100" />
+
+    <Button
+        android:id="@+id/btn_t2"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="100px"
+        android:background="@color/colorPrimary"
+        app:layout_adapterHeight="100"
+        app:layout_adapterWidth="100" />
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="100px"-->
+    <!--android:layout_marginTop="100px"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--app:layout_adapterHeight="300"-->
+    <!--app:layout_adapterWidth="400" />-->
+
+</com.raokui.autoscreenadapter.AutoAdapterRelativeLayout>
